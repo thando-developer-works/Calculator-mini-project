@@ -3,18 +3,18 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Calculator</title>
     <link rel="stylesheet" href="index.css">
-    <title>The Calculator done with JavaScript</title>
+    <script src="index.js" defer></script>
 </head>
 
 <body>
     <table class="tbl">
         <tr>
-            <td colspan="3">
-                <input type="text" id="reslut">
-            </td>
-            <td><input type="button" value="C" id="clear" onclick="clr()"></td>
+            <td colspan="3"><input type="text" id="result"></td>
+            <td><input type="button" value="C" onclick="clr()" id="clear"></td>
         </tr>
         <tr>
             <td><input type="button" value="1" onclick="Num('1')"></td>
@@ -41,7 +41,6 @@
             <td><input type="button" value="*" onclick="Num('*')"></td>
         </tr>
     </table>
-    <script src="index.js"></script>
 </body>
 
 </html>

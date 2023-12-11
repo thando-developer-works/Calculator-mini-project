@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(to right, #12c2e9, #c471ed, #f6af59);
+  background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
 }
 table.tbl {
   position: absolute;
@@ -9,7 +9,6 @@ table.tbl {
   padding: 15px;
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
-
 input[type="button"] {
   color: black;
   cursor: pointer;
@@ -20,7 +19,6 @@ input[type="button"] {
   width: 100%;
   margin: 10px 60px 10px 0px;
 }
-
 input[type="text"] {
   color: black;
   background: white;
